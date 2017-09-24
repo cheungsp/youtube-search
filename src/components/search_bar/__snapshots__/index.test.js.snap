@@ -11,4 +11,15 @@ exports[`Search component should render as expected 1`] = `
   />
 </div>
 `;
- 
+
+exports[`should pass a selected value to the onChange function 1`] = `
+<div
+  className="search-bar"
+>
+  <input
+    onChange={[Function]}
+    placeholder="Search"
+    value="Change function"
+  />
+</div>
+`;

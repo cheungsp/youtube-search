@@ -10,3 +10,12 @@ test('VideoInfo component should render as expected', () => {
   const tree =  toJson(component)
   expect(tree).toMatchSnapshot()
 })
+
+
+test('VideoInfo component should render loading... when not passed in any video', () => {
+  const component = shallow(<VideoInfo />)
+  const tree =  toJson(component)
+  expect(component.node.props.children).toBe('Loading...')
+})
+
+

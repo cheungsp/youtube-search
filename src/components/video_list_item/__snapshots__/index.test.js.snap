@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoListItem component should render as expected 1`] = `
+<li
+  className="list-group-item"
+  onClick={[Function]}
+>
+  <div
+    className="video-list media"
+  >
+    <div
+      className="media-left"
+    >
+      <img
+        className="media-object"
+        src="https://i.ytimg.com/vi/YQHsXMglC9A/default.jpg"
+      />
+    </div>
+    <div
+      className="media-body"
+    >
+      <div
+        className="media-heading"
+      />
+    </div>
+  </div>
+</li>
+`;
