@@ -1,10 +1,11 @@
-.video-item img {
-  max-width: 64px;
-}
-
 .video-detail .details {
   margin-top: 10px;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
+
+}
+
+.video-info {
+  font-size: 18px;
 }

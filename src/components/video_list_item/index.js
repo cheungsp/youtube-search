@@ -1,16 +1,22 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './style.css';
 
-class VideoListItem extends Component {
-  
-  render() {
-    return (
-      <div>
-        <h2>video list item goes here</h2>
+const VideoListItem = ({video, onVideoSelect}) => {
+  const imageUrl = video.snippet.thumbnails.default.url;
+
+  return (
+    <li onClick={() => onVideoSelect(video)}  className="list-group-item">
+      <div className="video-list media">
+        <div className="media-left">
+          <img className="media-object" src={imageUrl} />
+        </div>
+
+        <div className="media-body">
+          <div className="media-heading">{video.snippet.title}</div>
+        </div>
       </div>
-    )
-  }
-  
-}
+    </li>
+  );
+};
 
 export default VideoListItem;

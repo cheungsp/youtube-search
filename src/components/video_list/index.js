@@ -1,16 +1,22 @@
-import React, { Component } from 'react';
+import React from 'react';
+import VideoListItem from '../video_list_item/index';
 import './style.css';
 
-class VideoList extends Component {
-  
-  render() {
+const VideoList = (props) => {
+  const Videos = props.videos.map((video) => {
     return (
-      <div>
-        <h2>Video List</h2>
-      </div>
-    )
-  }
-  
-}
+      <VideoListItem
+        onVideoSelect={props.onVideoSelect}
+        key={video.etag}
+        video={video} />
+    );
+  });
+
+  return (
+    <ul className="col-md-4">
+      {Videos}
+    </ul>
+  );
+};
 
 export default VideoList;
