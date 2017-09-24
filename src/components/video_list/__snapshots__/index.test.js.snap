@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoList component should render as expected 1`] = `
+<ul
+  className="col-md-4"
+/>
+`;
+
+exports[`VideoList component should render as expected 2`] = `
+<ul
+  className="col-md-4"
+>
+  <VideoListItem
+    video={
+      Object {
+        "id": 1,
+        "key": 1,
+        "title": "video 1",
+      }
+    }
+  />
+  <VideoListItem
+    video={
+      Object {
+        "id": 2,
+        "key": 2,
+        "title": "video 2",
+      }
+    }
+  />
+</ul>
+`;

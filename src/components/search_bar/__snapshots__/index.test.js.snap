@@ -11,3 +11,4 @@ exports[`Search component should render as expected 1`] = `
   />
 </div>
 `;
+ 
