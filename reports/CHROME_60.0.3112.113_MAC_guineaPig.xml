@@ -5,9 +5,9 @@
 
   <testsuite name="guineaPig"
     errors="0" failures="0" hostname="" id="" package="guineaPig" skipped="0"
-    tests="1" time="3.005" timestamp="Sun, 24 Sep 2017 21:16:37 GMT">
+    tests="1" time="3.344" timestamp="Sun, 24 Sep 2017 22:06:15 GMT">
   
-    <testcase name="Guinea Pig Assert Title" classname="guineaPig" time="3.005" assertions="2">
+    <testcase name="Guinea Pig Assert Title" classname="guineaPig" time="3.344" assertions="2">
 
     
 

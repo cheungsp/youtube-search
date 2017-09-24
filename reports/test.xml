@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test"
+    errors="1" failures="0" hostname="" id="" package="test" skipped="0"
+    tests="1" time="0.01000" timestamp="Sun, 24 Sep 2017 22:24:42 GMT">
+  
+    <testcase name="Local Host Title" classname="test" time="0.01000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Test / Local Host Title]:
+
+  ReferenceError: expect is not defined
+    at Object.Local Host Title (/Users/Spencer/codecore/react/wellin5/youtube-search/test/e2e/test.js:34:9)
+    at Module.call (/Users/Spencer/codecore/react/wellin5/youtube-search/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Spencer/codecore/react/wellin5/youtube-search/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Spencer/codecore/react/wellin5/youtube-search/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Spencer/codecore/react/wellin5/youtube-search/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Spencer/codecore/react/wellin5/youtube-search/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Spencer/codecore/react/wellin5/youtube-search/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Spencer/codecore/react/wellin5/youtube-search/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Spencer/codecore/react/wellin5/youtube-search/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:95:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
