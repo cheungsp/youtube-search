@@ -1,7 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`VideoInfo component should render as expected 1`] = `
-<div>
-  Loading...
+<div
+  className="video-detail col-md-8"
+>
+  <div
+    className="embed-responsive embed-responsive-16by9"
+  >
+    <iframe
+      className="embed-responsive-item"
+      src="https://www.youtube.com/embed/YQHsXMglC9A"
+    />
+  </div>
+  <div
+    className="details"
+  >
+    <h1 />
+    <div
+      className="video-info"
+    />
+  </div>
 </div>
 `;

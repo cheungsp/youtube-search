@@ -6,7 +6,22 @@ import './style.css';
 
 
 test('VideoInfo component should render as expected', () => {
-  const component = shallow(<VideoInfo />)
+  const video = {
+    'etag': "VPWTmrH7dFmi4s1RqrK4tLejnRI/j0uEstXCXOhrDqDegEBmEeHqsBM",
+    'snippet': {
+      'thumbnails': {
+        'default': {
+          'url':"https://i.ytimg.com/vi/YQHsXMglC9A/default.jpg"
+        }
+      }
+    },
+    'title': 'video 1',
+    'key': 1,
+    'id': {
+      'kind': "youtube#video",
+      'videoId': "YQHsXMglC9A"}
+  }
+  const component = shallow(<VideoInfo video={video}/>)
   const tree =  toJson(component)
   expect(tree).toMatchSnapshot()
 })
@@ -17,5 +32,7 @@ test('VideoInfo component should render loading... when not passed in any video'
   const tree =  toJson(component)
   expect(component.node.props.children).toBe('Loading...')
 })
+
+
 
 
