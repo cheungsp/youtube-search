@@ -3,11 +3,16 @@ This is a React Youtube Search Project with component tests using Jest, and E2E 
 To get started, in Terminal:
 
   `$ git clone https://github.com/cheungsp/youtube-search.git`
+  <br />
   `$ cd youtube-search`
+  <br />
   `$ npm install`
+  <br />
   `$ npm start`
+  <br />
 
 The app will be running on
+
   `http://localhost:3000/`
 
 
