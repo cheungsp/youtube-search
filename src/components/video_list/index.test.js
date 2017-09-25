@@ -6,14 +6,14 @@ import toJson from 'enzyme-to-json'
 import './style.css';
 
 
-test('VideoList component should render as expected', () => {
+test('VideoList component should render as expected given no videos', () => {
   const component = shallow(<VideoList videos={[]}/>)
   const tree =  toJson(component)
   expect(component.find(VideoListItem).length).toBe(0);
   expect(tree).toMatchSnapshot()
 })
 
-test('VideoList component should render as expected', () => {
+test('VideoList component should render as expected given video list', () => {
   const component = shallow(<VideoList videos={[
     {
       'title': 'video 1',
