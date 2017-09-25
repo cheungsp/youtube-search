@@ -1,3 +1,7 @@
+body {
+  background-color: whitesmoke;
+}
+
 .video-item img {
   max-width: 64px;
 }

@@ -5,6 +5,7 @@ exports[`Search component should render as expected 1`] = `
   className="search-bar"
 >
   <input
+    className="search-bar-text"
     onChange={[Function]}
     placeholder="Search"
     value=""
@@ -17,6 +18,7 @@ exports[`should pass a selected value to the onChange function 1`] = `
   className="search-bar"
 >
   <input
+    className="search-bar-text"
     onChange={[Function]}
     placeholder="Search"
     value="Change function"

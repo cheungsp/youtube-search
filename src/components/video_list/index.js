@@ -11,10 +11,11 @@ const VideoList = (props) => {
         video={video} />
     );
   });
+  const videos = Videos.slice(0,4);
 
   return (
     <ul className="col-md-4 video-list">
-      {Videos}
+      {videos}
     </ul>
   );
 };

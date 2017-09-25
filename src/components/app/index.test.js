@@ -19,6 +19,7 @@ test('App component should render as expected', () => {
 describe('<App />', () => {
   describe('it renders app with correct state', () => {
     const component = mount(<App />);
+    console.log(component)
     expect(component.node.state.videos.length).toBe(0)
     expect(component.node.state.selectedVideos).toBe(undefined)
   })

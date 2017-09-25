@@ -1,82 +1,86 @@
-15:27:52.465 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-15:27:52.466 INFO - Launching a standalone Selenium Server
-2017-09-24 15:27:52.509:INFO::main: Logging initialized @476ms to org.seleniumhq.jetty9.util.log.StdErrLog
-15:27:52.574 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+16:28:34.793 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+16:28:34.794 INFO - Launching a standalone Selenium Server
+2017-09-24 16:28:34.857:INFO::main: Logging initialized @592ms to org.seleniumhq.jetty9.util.log.StdErrLog
+16:28:34.947 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-15:27:52.575 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+16:28:34.948 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-15:27:52.575 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-15:27:52.575 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+16:28:34.948 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:28:34.948 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-15:27:52.575 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-15:27:52.576 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-2017-09-24 15:27:52.639:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-09-24 15:27:52.677:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@35d019a3{/,null,AVAILABLE}
-2017-09-24 15:27:52.708:INFO:osjs.AbstractConnector:main: Started ServerConnector@3857f613{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-09-24 15:27:52.709:INFO:osjs.Server:main: Started @676ms
-15:27:52.709 INFO - Selenium Server is up and running
-15:27:53.034 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-15:27:53.076 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-15:27:53.099 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061) on port 4720
+16:28:34.948 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:28:34.948 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-09-24 16:28:35.036:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-09-24 16:28:35.081:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@35d019a3{/,null,AVAILABLE}
+2017-09-24 16:28:35.125:INFO:osjs.AbstractConnector:main: Started ServerConnector@3857f613{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-09-24 16:28:35.126:INFO:osjs.Server:main: Started @862ms
+16:28:35.126 INFO - Selenium Server is up and running
+16:28:35.493 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+16:28:35.549 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+16:28:35.583 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061) on port 23768
 Only local connections are allowed.
-15:27:54.370 INFO - Detected dialect: OSS
-15:27:54.405 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-15:27:54.431 INFO - Executing: [get: http://localhost:3000/])
-15:27:55.030 INFO - Done: [get: http://localhost:3000/]
-15:27:55.043 INFO - Executing: [find elements: By.cssSelector: body])
-15:27:55.091 INFO - Done: [find elements: By.cssSelector: body]
-15:27:55.098 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: body]])
-15:27:55.140 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: body]]
-15:27:55.146 INFO - Executing: [get title])
-15:27:55.156 INFO - Done: [get title]
-15:27:55.161 INFO - Executing: [take screenshot])
-15:27:56.295 INFO - Done: [take screenshot]
-15:27:56.356 INFO - Executing: [find element: By.cssSelector: .search-bar])
-15:27:56.382 INFO - Done: [find element: By.cssSelector: .search-bar]
-15:27:56.386 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .search-bar]])
-15:27:56.414 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .search-bar]]
-15:27:56.419 INFO - Executing: [find element: By.cssSelector: .video-detail])
-15:27:56.444 INFO - Done: [find element: By.cssSelector: .video-detail]
-15:27:56.449 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .video-detail]])
-15:27:56.478 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .video-detail]]
-15:27:56.484 INFO - Executing: [find element: By.cssSelector: .details])
-15:27:56.510 INFO - Done: [find element: By.cssSelector: .details]
-15:27:56.517 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .details]])
-15:27:56.543 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .details]]
-15:27:56.550 INFO - Executing: [find element: By.cssSelector: .video-list])
-15:27:56.575 INFO - Done: [find element: By.cssSelector: .video-list]
-15:27:56.579 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .video-list]])
-15:27:56.609 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .video-list]]
-15:27:56.613 INFO - Executing: [find element: By.cssSelector: .embed-responsive-item])
-15:27:56.639 INFO - Done: [find element: By.cssSelector: .embed-responsive-item]
-15:27:56.644 INFO - Executing: [click: 5 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .embed-responsive-item]])
-15:27:56.752 INFO - Done: [click: 5 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .embed-responsive-item]]
-15:27:58.765 INFO - Executing: [find element: By.cssSelector: .search-bar-text])
-15:27:58.798 INFO - Done: [find element: By.cssSelector: .search-bar-text]
-15:27:58.802 INFO - Executing: [clear: 6 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .search-bar-text]])
-15:27:58.844 INFO - Done: [clear: 6 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .search-bar-text]]
-15:27:58.849 INFO - Executing: [find element: By.cssSelector: .search-bar-text])
-15:27:58.860 INFO - Done: [find element: By.cssSelector: .search-bar-text]
-15:27:58.865 INFO - Executing: [send keys: 6 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .search-bar-text], [s, o, c, c, e, r]])
-15:27:58.962 INFO - Done: [send keys: 6 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .search-bar-text], [s, o, c, c, e, r]]
-15:28:01.975 INFO - Executing: [find element: By.cssSelector: .media-heading])
-15:28:02.002 INFO - Done: [find element: By.cssSelector: .media-heading]
-15:28:02.006 INFO - Executing: [get text: 7 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .media-heading]])
-15:28:02.040 INFO - Done: [get text: 7 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .media-heading]]
-15:28:02.046 INFO - Executing: [take screenshot])
-15:28:02.446 INFO - Done: [take screenshot]
-15:28:02.548 INFO - Executing: [find element: By.cssSelector: .video-list])
-15:28:02.562 INFO - Done: [find element: By.cssSelector: .video-list]
-15:28:02.565 INFO - Executing: [click: 4 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .video-list]])
-15:28:03.008 INFO - Done: [click: 4 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .video-list]]
-15:28:04.036 INFO - Executing: [find element: By.cssSelector: .embed-responsive-item])
-15:28:04.048 INFO - Done: [find element: By.cssSelector: .embed-responsive-item]
-15:28:04.053 INFO - Executing: [click: 5 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .embed-responsive-item]])
-15:28:04.109 INFO - Done: [click: 5 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .embed-responsive-item]]
-15:28:06.122 INFO - Executing: [find element: By.cssSelector: .details])
-15:28:06.133 INFO - Done: [find element: By.cssSelector: .details]
-15:28:06.138 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .details]])
-15:28:06.172 INFO - Done: [get text: 3 [[ChromeDriver: chrome on MAC (6a5acb0fe9f1b6b07683667cb7112d5e)] -> css selector: .details]]
-15:28:06.177 INFO - Executing: [delete session: 07c59f70-7572-4a36-a17c-97fde02fb62d])
-15:28:06.263 INFO - Done: [delete session: 07c59f70-7572-4a36-a17c-97fde02fb62d]
+16:28:37.087 INFO - Detected dialect: OSS
+16:28:37.118 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+16:28:37.144 INFO - Executing: [get: http://localhost:3000/])
+16:28:37.745 INFO - Done: [get: http://localhost:3000/]
+16:28:37.756 INFO - Executing: [find elements: By.cssSelector: body])
+16:28:37.810 INFO - Done: [find elements: By.cssSelector: body]
+16:28:37.818 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: body]])
+16:28:37.848 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: body]]
+16:28:37.859 INFO - Executing: [get title])
+16:28:37.868 INFO - Done: [get title]
+16:28:37.873 INFO - Executing: [take screenshot])
+16:28:38.751 INFO - Done: [take screenshot]
+16:28:38.816 INFO - Executing: [find element: By.cssSelector: .search-bar])
+16:28:38.846 INFO - Done: [find element: By.cssSelector: .search-bar]
+16:28:38.851 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .search-bar]])
+16:28:38.876 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .search-bar]]
+16:28:38.882 INFO - Executing: [find element: By.cssSelector: .video-detail])
+16:28:38.909 INFO - Done: [find element: By.cssSelector: .video-detail]
+16:28:38.916 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .video-detail]])
+16:28:38.944 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .video-detail]]
+16:28:38.951 INFO - Executing: [find element: By.cssSelector: .details])
+16:28:38.976 INFO - Done: [find element: By.cssSelector: .details]
+16:28:38.982 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .details]])
+16:28:39.009 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .details]]
+16:28:39.015 INFO - Executing: [find element: By.cssSelector: .video-list])
+16:28:39.042 INFO - Done: [find element: By.cssSelector: .video-list]
+16:28:39.048 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .video-list]])
+16:28:39.075 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .video-list]]
+16:28:39.081 INFO - Executing: [find element: By.cssSelector: .details])
+16:28:39.093 INFO - Done: [find element: By.cssSelector: .details]
+16:28:39.098 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .details]])
+16:28:39.132 INFO - Done: [get text: 3 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .details]]
+16:28:39.138 INFO - Executing: [find element: By.cssSelector: .embed-responsive-item])
+16:28:39.163 INFO - Done: [find element: By.cssSelector: .embed-responsive-item]
+16:28:39.169 INFO - Executing: [click: 5 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .embed-responsive-item]])
+16:28:39.277 INFO - Done: [click: 5 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .embed-responsive-item]]
+16:28:41.287 INFO - Executing: [find element: By.cssSelector: .search-bar-text])
+16:28:41.314 INFO - Done: [find element: By.cssSelector: .search-bar-text]
+16:28:41.318 INFO - Executing: [clear: 6 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .search-bar-text]])
+16:28:41.358 INFO - Done: [clear: 6 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .search-bar-text]]
+16:28:41.363 INFO - Executing: [find element: By.cssSelector: .search-bar-text])
+16:28:41.374 INFO - Done: [find element: By.cssSelector: .search-bar-text]
+16:28:41.379 INFO - Executing: [send keys: 6 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .search-bar-text], [s, o, c, c, e, r]])
+16:28:41.474 INFO - Done: [send keys: 6 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .search-bar-text], [s, o, c, c, e, r]]
+16:28:44.481 INFO - Executing: [find element: By.cssSelector: .media-heading])
+16:28:44.508 INFO - Done: [find element: By.cssSelector: .media-heading]
+16:28:44.511 INFO - Executing: [get text: 7 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .media-heading]])
+16:28:44.541 INFO - Done: [get text: 7 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .media-heading]]
+16:28:44.545 INFO - Executing: [take screenshot])
+16:28:44.947 INFO - Done: [take screenshot]
+16:28:45.029 INFO - Executing: [find element: By.cssSelector: .video-list])
+16:28:45.048 INFO - Done: [find element: By.cssSelector: .video-list]
+16:28:45.053 INFO - Executing: [click: 4 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .video-list]])
+16:28:45.387 INFO - Done: [click: 4 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .video-list]]
+16:28:46.404 INFO - Executing: [find element: By.cssSelector: .embed-responsive-item])
+16:28:46.417 INFO - Done: [find element: By.cssSelector: .embed-responsive-item]
+16:28:46.421 INFO - Executing: [click: 5 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .embed-responsive-item]])
+16:28:46.490 INFO - Done: [click: 5 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .embed-responsive-item]]
+16:28:48.505 INFO - Executing: [find element: By.cssSelector: .details])
+16:28:48.518 INFO - Done: [find element: By.cssSelector: .details]
+16:28:48.523 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .details]])
+16:28:48.536 INFO - Done: [get text: 3 [[ChromeDriver: chrome on MAC (37a38200c222b8873d6f53da3895bf33)] -> css selector: .details]]
+16:28:48.542 INFO - Executing: [delete session: becd6221-96fd-44a1-af21-1093be079fb3])
+16:28:48.636 INFO - Done: [delete session: becd6221-96fd-44a1-af21-1093be079fb3]

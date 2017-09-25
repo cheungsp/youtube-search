@@ -2,13 +2,13 @@
 
 exports[`VideoList component should render as expected 1`] = `
 <ul
-  className="col-md-4"
+  className="col-md-4 video-list"
 />
 `;
 
 exports[`VideoList component should render as expected 2`] = `
 <ul
-  className="col-md-4"
+  className="col-md-4 video-list"
 >
   <VideoListItem
     video={

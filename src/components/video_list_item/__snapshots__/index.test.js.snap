@@ -2,7 +2,7 @@
 
 exports[`VideoListItem component should render as expected given a video 1`] = `
 <li
-  className="list-group-item"
+  className="list-group-item single-video-item"
   onClick={[Function]}
 >
   <div

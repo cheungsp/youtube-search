@@ -12,7 +12,7 @@ test('VideoList component should render as expected', () => {
   expect(component.find(VideoListItem).length).toBe(0);
   expect(tree).toMatchSnapshot()
 })
- 
+
 test('VideoList component should render as expected', () => {
   const component = shallow(<VideoList videos={[
     {
@@ -30,4 +30,3 @@ test('VideoList component should render as expected', () => {
   expect(component.find(VideoListItem).length).toBe(2);
   expect(tree).toMatchSnapshot()
 })
- 

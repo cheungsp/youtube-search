@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import _ from 'lodash';
 import YTSearch from 'youtube-api-search';
 import VideoList from '../video_list/index';
 import VideoInfo from '../video_info/index';
-import VideoListItem from '../video_list_item/index';
+// import VideoListItem from '../video_list_item/index';
 import SearchBar from '../search_bar/index';
 import './style.css';
 
